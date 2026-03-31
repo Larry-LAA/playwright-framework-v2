@@ -1,3 +1,8 @@
+# Exclude GitHub and VS Code config folders
+.github/
+.vscode/
+# Exclude specs/README.md
+specs/README.md
 node_modules/
 /test-results/
 /playwright-report/
@@ -5,3 +10,4 @@ node_modules/
 /playwright/.cache/
 .env
 /playwright/.auth/*.json
+# Exclude all files in the playwright/.auth/ directory except for .json files
